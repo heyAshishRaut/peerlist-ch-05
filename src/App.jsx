@@ -15,14 +15,14 @@ function App() {
                 <div className='text-2xl font-semibold'>Collectibles</div>
 
                 <div className='flex gap-x-[15px] pb-[20px] border-b-2 border-gray-300'>
-                    <button onClick={() => setBtn(1)} className={`flex items-center gap-x-[10px] bg-gray-200 px-[15px] py-[7px] rounded-[50px] ${btn === 1 ? "bg-blue-500": ""} `}>
+                    <button onClick={() => setBtn(1)} className={`flex items-center gap-x-[10px]  px-[15px] py-[7px] rounded-[50px] ${btn === 1 ? "bg-blue-500": "bg-gray-200"} `}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke={`${btn === 1 ? 'white' : 'gray'}`} class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
                         </svg>
                         <div className={`${btn === 1 ? "text-white" : "text-gray-500"}`}>List view</div>
                     </button>
 
-                    <button onClick={() => setBtn(2)} className={`flex items-center gap-x-[10px] bg-gray-200 px-[15px] py-[7px] rounded-[50px] ${btn === 2 ? "bg-blue-500": ""} `}>
+                    <button onClick={() => setBtn(2)} className={`flex items-center gap-x-[10px]  px-[15px] py-[7px] rounded-[50px] ${btn === 2 ? "bg-blue-500": "bg-gray-200"} `}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke={`${btn === 2 ? 'white' : 'gray'}`} class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
                         </svg>
@@ -30,7 +30,7 @@ function App() {
                         <div className={`${btn === 2 ? "text-white" : "text-gray-500"}`}>Card view</div>
                     </button>
 
-                    <button onClick={() => setBtn(3)} className={`flex items-center gap-x-[10px] bg-gray-200 px-[15px] py-[7px] rounded-[50px] ${btn === 3 ? "bg-blue-500" : ""}`}>
+                    <button onClick={() => setBtn(3)} className={`flex items-center gap-x-[10px]  px-[15px] py-[7px] rounded-[50px] ${btn === 3 ? "bg-blue-500" : "bg-gray-200"}`}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke={`${btn === 3 ? 'white' : 'gray'}`} class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                         </svg>
